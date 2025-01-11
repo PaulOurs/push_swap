@@ -6,7 +6,7 @@
 /*   By: paubello <paubello@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 07:17:48 by paubello          #+#    #+#             */
-/*   Updated: 2024/12/17 15:45:37 by paubello         ###   ########.fr       */
+/*   Updated: 2025/01/11 09:06:55 by paubello         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,9 @@ void	rr(t_stack *stack_a, t_stack *stack_b);
 void	rra(t_stack *stack);
 void	rrb(t_stack *stack);
 void	rrr(t_stack *stack_a, t_stack *stack_b);
+
+void	find_min_max(t_stack *stack);
+int		calculate_operations(t_stack *stack_b, int number);
+void	turk_algorithm(t_stack *stack_a, t_stack *stack_b);
 
 #endif
